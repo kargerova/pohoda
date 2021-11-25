@@ -16,7 +16,7 @@ class Summary(Agenda):
 
         foreign_currency = data.get('foreignCurrency')
         if foreign_currency:
-            data['foreignCurrency'] = CurrencyForeign(data, ico)
+            data['foreignCurrency'] = CurrencyForeign(data['foreignCurrency'], ico)
 
         super().__init__(data, ico)
 

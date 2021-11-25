@@ -1,7 +1,6 @@
 # Pohoda XML in Python
 
-This project is basically a rewrite of https://github.com/riesenia/pohoda into Python3 and i will try to match their versioning if possible
-
+This project is a fork from Salamek
 [![Python package](https://github.com/Salamek/pohoda/actions/workflows/python-test.yml/badge.svg)](https://github.com/Salamek/pohoda/actions/workflows/python-test.yml)
 
 
